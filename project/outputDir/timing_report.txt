@@ -1,0 +1,113 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fpAdder32
+Version: I-2013.12
+Date   : Fri Apr 27 21:12:34 2018
+****************************************
+
+Operating Conditions: TCCOM   Library: fsd0a_a_generic_core_tt1v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: x[24] (input port)
+  Endpoint: z[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder32          G50K                  fsd0a_a_generic_core_tt1v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  x[24] (in)                               0.00       0.00 r
+  U836/O (INVCKX1)                         0.03       0.03 f
+  U833/O (OAI112X1)                        0.07       0.10 r
+  U832/O (MAOI1X1)                         0.03       0.13 f
+  U831/O (AOI122X1)                        0.07       0.21 r
+  U830/O (AOI122X1)                        0.04       0.24 f
+  U829/O (AOI122X1)                        0.08       0.32 r
+  U828/O (AOI122X1)                        0.04       0.36 f
+  U321/O (MOAI1XLP)                        0.06       0.42 r
+  U320/O (OA12X2)                          0.39       0.81 r
+  U821/OB (MXL2XLP)                        0.12       0.92 r
+  U820/O (INVCKX1)                         0.15       1.08 f
+  sub_43_U2_1/S (FA1X1)                    0.19       1.27 r
+  U768/O (INVCKX1)                         0.05       1.32 f
+  U767/O (NR2X1)                           0.36       1.68 r
+  U766/O (INVCKX1)                         0.28       1.96 f
+  U699/O (OAI122X1)                        0.24       2.20 r
+  U692/O (AOI22X1)                         0.07       2.27 f
+  U623/O (OAI222X1)                        0.13       2.41 r
+  U622/O (INVCKX1)                         0.08       2.49 f
+  U338/O (XOR2X1)                          0.06       2.54 f
+  U539/O (MUX2X1)                          0.08       2.62 f
+  add_52_U1_1/CO (FA1X1)                   0.09       2.71 f
+  add_52_U1_2/CO (FA1X1)                   0.08       2.79 f
+  add_52_U1_3/CO (FA1X1)                   0.08       2.87 f
+  add_52_U1_4/CO (FA1X1)                   0.08       2.95 f
+  add_52_U1_5/CO (FA1X1)                   0.08       3.03 f
+  add_52_U1_6/CO (FA1X1)                   0.08       3.11 f
+  add_52_U1_7/CO (FA1X1)                   0.08       3.19 f
+  add_52_U1_8/CO (FA1X1)                   0.08       3.26 f
+  add_52_U1_9/CO (FA1X1)                   0.08       3.34 f
+  add_52_U1_10/CO (FA1X1)                  0.08       3.42 f
+  add_52_U1_11/CO (FA1X1)                  0.08       3.50 f
+  add_52_U1_12/CO (FA1X1)                  0.08       3.58 f
+  add_52_U1_13/CO (FA1X1)                  0.08       3.66 f
+  add_52_U1_14/CO (FA1X1)                  0.08       3.73 f
+  add_52_U1_15/CO (FA1X1)                  0.08       3.81 f
+  add_52_U1_16/CO (FA1X1)                  0.08       3.89 f
+  add_52_U1_17/CO (FA1X1)                  0.08       3.97 f
+  add_52_U1_18/CO (FA1X1)                  0.08       4.05 f
+  add_52_U1_19/CO (FA1X1)                  0.08       4.13 f
+  add_52_U1_20/CO (FA1X1)                  0.08       4.20 f
+  add_52_U1_21/CO (FA1X1)                  0.08       4.28 f
+  add_52_U1_22/CO (FA1X1)                  0.08       4.36 f
+  add_52_U1_23/CO (FA1X1)                  0.08       4.44 f
+  add_52_U1_24/CO (FA1X1)                  0.08       4.52 f
+  add_52_U1_25/S (FA1X1)                   0.18       4.70 r
+  U917/O (INVCKX1)                         0.40       5.10 f
+  U911/OB (MXL2XLP)                        0.26       5.36 r
+  U902/O (AN4B2X1)                         0.27       5.64 r
+  U900/O (AN2X1)                           0.08       5.71 r
+  U898/O (AOI112X1)                        0.04       5.76 f
+  U897/O (ND3X1)                           0.06       5.81 r
+  U894/O (AN4B2X1)                         0.19       6.00 r
+  U893/O (INVCKX1)                         0.17       6.17 f
+  U889/O (NR2X1)                           0.11       6.28 r
+  U885/O (OAI12X1)                         0.06       6.33 f
+  U877/O (AN4B2X1)                         0.08       6.41 f
+  U876/O (ND3X1)                           0.04       6.45 r
+  U875/O (AN4B2X1)                         0.11       6.56 r
+  U869/O (OAI112X1)                        0.32       6.88 f
+  U868/O (NR2X1)                           0.16       7.05 r
+  U867/O (INVCKX1)                         0.11       7.16 f
+  U862/O (OA12X1)                          0.09       7.25 f
+  U861/O (OAI112X1)                        0.19       7.45 r
+  U860/O (INVCKX1)                         0.48       7.92 f
+  U857/O (ND3X1)                           0.09       8.01 r
+  U318/O (AN4B2X2)                         0.45       8.47 r
+  U854/O (AOI23X1)                         0.08       8.54 f
+  U852/O (OAI122X1)                        0.08       8.63 r
+  U850/O (AOI112X1)                        0.03       8.66 f
+  U847/O (ND2X1)                           0.07       8.73 r
+  U522/O (OAI23X1)                         0.05       8.78 f
+  U520/O (AOI222X1)                        0.10       8.89 r
+  U519/O (AOI122X1)                        0.04       8.93 f
+  U518/O (AOI12X1)                         0.07       9.00 r
+  U507/O (OAI112X1)                        0.07       9.07 f
+  U506/O (NR2X1)                           0.25       9.31 r
+  U505/O (INVCKX1)                         0.21       9.53 f
+  U473/O (OAI22X1)                         0.09       9.62 r
+  z[6] (out)                               0.00       9.62 r
+  data arrival time                                   9.62
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

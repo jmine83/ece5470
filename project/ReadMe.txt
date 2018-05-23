@@ -1,0 +1,1 @@
+The attached report and files does not include the command scripts, log files, net lists, and other generated file content that resulted from each phase of the project. If necessary, all files of the project may be disclosed upon request.

@@ -1,0 +1,58 @@
+Loading db file '/opt/software/cadence/library/fsd0a_90nm_generic_core/timing/fsd0a_a_generic_core_tt1v25c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : fpAdder32
+Version: I-2013.12
+Date   : Fri Apr 27 21:12:35 2018
+****************************************
+
+
+Library(s) Used:
+
+    fsd0a_a_generic_core_tt1v25c (File: /opt/software/cadence/library/fsd0a_90nm_generic_core/timing/fsd0a_a_generic_core_tt1v25c.db)
+
+
+Operating Conditions: TCCOM   Library: fsd0a_a_generic_core_tt1v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fpAdder32              G50K              fsd0a_a_generic_core_tt1v25c
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 667.7774 uW   (49%)
+  Net Switching Power  = 690.0212 uW   (51%)
+                         ---------
+Total Dynamic Power    =   1.3578 mW  (100%)
+
+Cell Leakage Power     =   8.1287 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.6678            0.6900        8.1287e+06            1.3659  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total              0.6678 mW         0.6900 mW     8.1287e+06 pW         1.3659 mW
+1
